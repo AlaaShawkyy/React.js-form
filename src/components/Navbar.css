@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+#offcanvasNavbar{
+  width: 250px;
+}
+
+.icons i:hover{
+    color: blue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-sidebar {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.offcanvas svg{
+  display: unset;
+  margin-right: 15px;
+  font-size: 10px;
+}
+
+.indicator svg{
+  
+  transition: all 0.2s;
+}
+.indicator svg:hover{
+  transform: scale(1.1);
+  color: blue;
+}
